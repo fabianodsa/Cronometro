@@ -1,6 +1,7 @@
 # Cronometro
 
 Visão geral
+
 Cronômetro utilizando HTML, CSS e JavaScript.
 
 [ ] Criar o layout do cronômetro com botões de "Start", "Stop" e "Reset"

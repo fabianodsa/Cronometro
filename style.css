@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+
+.fundo {
+    padding: 10%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+}
