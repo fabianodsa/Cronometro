@@ -1,5 +1,8 @@
-const minutesContainer = document.querySelector('#minutes')
-const hourContainer = document.querySelector('#hours')
-const secondsContainer = document.querySelector('#seconds')
+const minutesTime = document.querySelector('#minutes')
+const hourTime = document.querySelector('#hours')
+const secondsTime = document.querySelector('#seconds')
 
-console.log(hours)
+function iniciar () {
+    var segundos = 1;
+    document.writeln("já passou " + segundos + " segundos...");
+}
