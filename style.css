@@ -2,38 +2,15 @@
     box-sizing: border-box;
   }
 
-.fundo {
-    padding: 10%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    overflow: hidden;
-}
-
-h1, p {
-    text-align: center;
+body{
+    background-color:#D3D3D3;
 }
 
 .container {
-    display: flex;
+    text-align: center;
+    padding: 200px;
 }
 
-
-.time {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    text-align: center;
-}
-
-.botoes {
-    text-align: center;
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
 }
