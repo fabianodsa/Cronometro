@@ -10,7 +10,7 @@ function start() {
 } 
 
 function stop() {
-    clearInterval()
+    clearInterval(cronometro);
 }
 
 function reset() {
@@ -19,23 +19,28 @@ function reset() {
     horas = 0;
     minutos = 0;
     segundos = 0;
+
+    document.getElementById("timer").innerHTML = "00:00:00";
 }
 
 function timer() {
     segundos++;
+
     if (segundos == 60){
         segundos = 0;
         minutos++;
     }
     if (minutos == 60) {
         minutos = 0;
-        horas++
+        horas++;
     }
 
     var format = 
     (horas < 10 ? "0" + horas : horas) + 
-    ":"
+    ":" + 
     (minutos < 10 ? "0" + minutos : minutos) +
-    ":"
-    (segundos < 10 ? "0" + segundos : segundos) +
+    ":" + 
+    (segundos < 10 ? "0" + segundos : segundos) 
+
+    document.getElementById('timer').innerHTML = format;
 }
